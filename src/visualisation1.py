@@ -21,4 +21,4 @@ number = st.slider("Pick a number", 0, 100)
 
 file = st.file_uploader("Pick a file")
 
-color = st.color_picker()
+color = st.color_picker("Pick a color:")
