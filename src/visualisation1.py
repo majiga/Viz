@@ -16,3 +16,9 @@ st.write("""
 
 df = pd.DataFrame(np.random.randn(1000, 2) / [50, 50] + [-31.95, 115.85], columns=['lat', 'lon'])
 st.map(df)
+
+number = st.slider("Pick a number", 0, 100)
+
+file = st.file_ uploader("Pick a file")
+
+color = st.color_picker()
