@@ -19,6 +19,6 @@ st.map(df)
 
 number = st.slider("Pick a number", 0, 100)
 
-file = st.file_ uploader("Pick a file")
+file = st.file_uploader("Pick a file")
 
 color = st.color_picker()
